@@ -104,4 +104,3 @@ Yes — a dedicated placement team runs daily drives, and the placement track is
 🔗 [Website](https://thetapacademy.com) · [Placements](https://thetapacademy.com/placements) · [LinkedIn](https://in.linkedin.com/company/thetapacademy) · [YouTube](https://www.youtube.com/tapacademy)
 
 ---
-*⭐ If you liked this project, star the repo — it helps more students discover it.*
