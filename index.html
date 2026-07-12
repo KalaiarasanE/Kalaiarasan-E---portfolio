@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kalaiarasan E - Premium Animated Portfolio</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Kalaiarasan E - Premium personal portfolio website. Final-year Computer Science student, Software Developer, and Full Stack Developer specializing in Java, Python, and modern web architectures." />
+  <meta name="keywords" content="Kalaiarasan E, portfolio, full stack developer, software engineer, web developer, Dr MCET, Coimbatore, resume, Java, Python" />
+  <meta name="author" content="Kalaiarasan E" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="no-scroll">
+
+  <!-- ==========================================
+       1. PREMIUM PAGE LOADER
+       ========================================== -->
+  <div id="page-loader">
+    <div class="loader-container">
+      <div class="loader-logo">KE</div>
+      <div class="loader-progress-container">
+        <div class="loader-progress-line" id="loader-progress-line"></div>
+      </div>
+      <div class="loader-percent"><span id="loader-percentage">0</span>%</div>
+    </div>
+  </div>
+
+  <!-- ==========================================
+       2. CUSTOM CURSOR
+       ========================================== -->
+  <div class="cursor-dot"></div>
+  <div class="cursor-outline"></div>
+
+  <!-- ==========================================
+       3. FLOATING ACTION SIDEBAR
+       ========================================== -->
+  <div class="social-sidebar">
+    <a href="https://www.linkedin.com/in/kalaiarasan-e-7b7044258/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="https://github.com/KalaiarasanE" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+    <a href="https://leetcode.com/u/KalaiarasanE/" target="_blank" aria-label="LeetCode"><i class="fa-solid fa-code"></i></a>
+    <a href="mailto:kalaiarasane08@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+  </div>
+
+  <!-- ==========================================
+       4. FLOATING GLASS NAVBAR
+       ========================================== -->
+  <header>
+    <div class="logo">Kalaiarasan E</div>
+    <nav>
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Timeline</a>
+      <a href="#projects">Projects</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="theme-toggle" aria-label="Toggle Theme">
+        <i class="fas fa-sun"></i>
+      </button>
+      <div class="hamburger" aria-label="Toggle Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <div class="scroll-progress-container">
+      <div class="scroll-progress-bar"></div>
+    </div>
+  </header>
+
+  <!-- ==========================================
+       5. HERO SECTION
+       ========================================== -->
+  <section class="home" id="home">
+    <div class="aurora-backdrop">
+      <div class="aurora-blob aurora-blob-1"></div>
+      <div class="aurora-blob aurora-blob-2"></div>
+      <div class="aurora-blob aurora-blob-3"></div>
+    </div>
+    
+    <div class="home-content reveal reveal-left">
+      <div class="greeting-tag"><span id="dynamic-greeting">Hello</span></div>
+      <h1>Hi, I'm <span>Kalaiarasan E</span></h1>
+      <div class="typing-text">I'm a <span id="typed-text"></span></div>
+      <p>I'm a passionate Software Developer who loves building beautiful, high-performance web applications and creating intuitive UI/UX experiences.</p>
+      
+      <div class="cta-group">
+        <a href="#contact" class="btn btn-primary magnetic-btn">Contact Me <i class="fas fa-arrow-right"></i></a>
+        <a href="#projects" class="btn btn-secondary magnetic-btn">View Projects</a>
+      </div>
+    </div>
+
+    <div class="home-img reveal reveal-fadein">
+      <div class="profile-img-wrapper">
+        <img src="main.jpg" alt="Kalaiarasan Photo" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       6. ABOUT SECTION
+       ========================================== -->
+  <section class="about" id="about">
+    <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+    
+    <div class="about-container">
+      <div class="about-left reveal reveal-left">
+        <div class="about-card spotlight-card">
+          <img src="main.jpg" alt="Kalaiarasan Biography" />
+          <div class="bio-card">
+            <h3>Kalaiarasan E</h3>
+            <h4>Software Developer | Full Stack Developer</h4>
+            <p>I am a Final-year Computer Science student specializing in Web Development. I enjoy solving complex problems, writing clean code, and creating dynamic user interfaces.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-right reveal reveal-right">
+        <div class="about-details">
+          <div class="detail-item spotlight-card">
+            <p>Email</p>
+            <span>kalaiarasane08@gmail.com</span>
+          </div>
+          <div class="detail-item spotlight-card">
+            <p>Location</p>
+            <span>Coimbatore, India</span>
+          </div>
+        </div>
+
+        <div class="experience-grid">
+          <div class="exp-box spotlight-card">
+            <i class="fas fa-graduation-cap"></i>
+            <h3>BE CSE</h3>
+            <p>Dr.MCET-Pollachi (CGPA: 7.83)</p>
+          </div>
+          <div class="exp-box spotlight-card">
+            <i class="fas fa-certificate"></i>
+            <h3>9+</h3>
+            <p>Certifications Completed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       7. SKILLS SECTION
+       ========================================== -->
+  <section class="skills" id="skills">
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
+    
+    <div class="skills-container">
+      <!-- Programming Languages -->
+      <div class="skill-category spotlight-card tilt-card reveal reveal-left">
+        <h3><i class="fas fa-code"></i> Programming & Web</h3>
+        <div class="skill-list">
+          <div class="skill-progress-wrap">
+            <div class="skill-info"><span>Java & Python</span><span>85%</span></div>
+            <div class="skill-bar-container"><div class="skill-bar-progress" style="width: 85%"></div></div>
+          </div>
+          <div class="skill-progress-wrap">
+            <div class="skill-info"><span>HTML, CSS & JavaScript</span><span>90%</span></div>
+            <div class="skill-bar-container"><div class="skill-bar-progress" style="width: 90%"></div></div>
+          </div>
+          <div class="skill-progress-wrap">
+            <div class="skill-info"><span>React JS & Node.js</span><span>80%</span></div>
+            <div class="skill-bar-container"><div class="skill-bar-progress" style="width: 80%"></div></div>
+          </div>
+          <div class="skill-progress-wrap">
+            <div class="skill-info"><span>SQL & Databases</span><span>85%</span></div>
+            <div class="skill-bar-container"><div class="skill-bar-progress" style="width: 85%"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Strengths -->
+      <div class="skill-category spotlight-card tilt-card reveal reveal-right">
+        <h3><i class="fas fa-lightbulb"></i> Key Strengths</h3>
+        <div class="skill-list">
+          <div class="skill-progress-wrap">
+            <div class="skill-info"><span>Problem-Solving (LeetCode)</span><span>85%</span></div>
+            <div class="skill-bar-container"><div class="skill-bar-progress" style="width: 85%"></div></div>
+          </div>
+          <div class="skill-progress-wrap">
+            <div class="skill-info"><span>Analytical Thinking</span><span>90%</span></div>
+            <div class="skill-bar-container"><div class="skill-bar-progress" style="width: 90%"></div></div>
+          </div>
+          <div class="skill-progress-wrap">
+            <div class="skill-info"><span>Teamwork & Leadership</span><span>95%</span></div>
+            <div class="skill-bar-container"><div class="skill-bar-progress" style="width: 95%"></div></div>
+          </div>
+          <div class="skill-progress-wrap">
+            <div class="skill-info"><span>Communication</span><span>90%</span></div>
+            <div class="skill-bar-container"><div class="skill-bar-progress" style="width: 90%"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       8. TIMELINE & EXPERIENCE
+       ========================================== -->
+  <section class="experience" id="experience">
+    <h2 class="heading"><i class="fas fa-history"></i> My <span>Timeline</span></h2>
+    
+    <div class="timeline-section">
+      <!-- Education -->
+      <div class="reveal reveal-left">
+        <h3 class="timeline-col-title"><i class="fas fa-graduation-cap"></i> Education</h3>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="date">2022 - 2026 | Currently Pursuing</div>
+              <h3>B.E. Computer Science & Engineering</h3>
+              <h4>Dr. MCET, Pollachi</h4>
+              <p>Acquiring standard core concepts in algorithms, web architectures, and system designs. Current CGPA: 7.83</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="date">Completed 2022</div>
+              <h3>High School Certificate</h3>
+              <h4>Govt Hr Sec School, SNKL</h4>
+              <p>Graduated with 86% in Science and Mathematics, laying solid foundations in computation.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Experience & Certifications -->
+      <div class="reveal reveal-right">
+        <h3 class="timeline-col-title"><i class="fas fa-award"></i> Highlights & Milestones</h3>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="date">2025</div>
+              <h3>NPTEL certification</h3>
+              <h4>The Joy of Computing using Python</h4>
+              <p>Successfully completed rigorous academic evaluation in Python programming and computing paradigms.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="date">2024</div>
+              <h3>Java Developer Basic Assessment</h3>
+              <h4>HackerRank / Java Certification</h4>
+              <p>Validated foundations in Object-Oriented programming, data structures, and core Java libraries.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       9. PROJECTS SECTION
+       ========================================== -->
+  <section class="projects" id="projects">
+    <h2 class="heading"><i class="fas fa-tasks"></i> Project <span>Showcase</span></h2>
+    
+    <div class="filter-tabs reveal reveal-fadein">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="web">Web Dev</button>
+      <button class="filter-btn" data-filter="java">Java</button>
+      <button class="filter-btn" data-filter="python">Python</button>
+    </div>
+
+    <div class="projects-grid reveal reveal-fadein">
+      <!-- Project 1: Premium Portfolio -->
+      <div class="project-card spotlight-card tilt-card" data-category="web">
+        <div class="project-img">
+          <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&q=80" alt="Developer Portfolio Project" />
+          <div class="project-overlay">
+            <a href="https://github.com/KalaiarasanE" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="#" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="project-details">
+          <div class="project-tags">
+            <span class="project-tag">HTML</span>
+            <span class="project-tag">CSS</span>
+            <span class="project-tag">JavaScript</span>
+          </div>
+          <h3>Premium Portfolio Website</h3>
+          <p>A fully animated personal portfolio containing interactive glassmorphic panels, customizable dark/light schemes, custom cursors, and responsive layouts.</p>
+        </div>
+      </div>
+
+      <!-- Project 2: E-commerce Website -->
+      <div class="project-card spotlight-card tilt-card" data-category="web">
+        <div class="project-img">
+          <img src="https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&w=800&q=80" alt="E-commerce Website" />
+          <div class="project-overlay">
+            <a href="https://github.com/KalaiarasanE" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="#" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="project-details">
+          <div class="project-tags">
+            <span class="project-tag">React</span>
+            <span class="project-tag">Tailwind CSS</span>
+            <span class="project-tag">Redux</span>
+            <span class="project-tag">Node.js</span>
+          </div>
+          <h3>E-commerce Website</h3>
+          <p>A full-featured shopping platform with interactive product catalogs, advanced search filters, a dynamic shopping cart, and a secure checkout gateway.</p>
+        </div>
+      </div>
+
+      <!-- Project 3: Food Delivery App -->
+      <div class="project-card spotlight-card tilt-card" data-category="web">
+        <div class="project-img">
+          <img src="https://images.unsplash.com/photo-1526367790999-0150786486a9?auto=format&fit=crop&w=800&q=80" alt="Food Delivery App" />
+          <div class="project-overlay">
+            <a href="https://github.com/KalaiarasanE" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="#" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="project-details">
+          <div class="project-tags">
+            <span class="project-tag">React</span>
+            <span class="project-tag">Context API</span>
+            <span class="project-tag">Tailwind</span>
+            <span class="project-tag">Firebase</span>
+          </div>
+          <h3>Food Delivery App</h3>
+          <p>A real-time food ordering application featuring responsive restaurant listings, cart management, address verification, and live order status updates.</p>
+        </div>
+      </div>
+
+      <!-- Project 4: Product Landing Page -->
+      <div class="project-card spotlight-card tilt-card" data-category="web">
+        <div class="project-img">
+          <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80" alt="Product Landing Page" />
+          <div class="project-overlay">
+            <a href="https://github.com/KalaiarasanE" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="#" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="project-details">
+          <div class="project-tags">
+            <span class="project-tag">HTML5</span>
+            <span class="project-tag">CSS3</span>
+            <span class="project-tag">JavaScript</span>
+            <span class="project-tag">GSAP</span>
+          </div>
+          <h3>Product Landing Page</h3>
+          <p>A high-converting single-page showcase with fluid scrolling animations, custom interactive 3D product previews, and contact submission systems.</p>
+        </div>
+      </div>
+
+      <!-- Project 5: TAP Academy Clone -->
+      <div class="project-card spotlight-card tilt-card" data-category="web">
+        <div class="project-img">
+          <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80" alt="TAP Academy Clone" />
+          <div class="project-overlay">
+            <a href="https://github.com/KalaiarasanE" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="#" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="project-details">
+          <div class="project-tags">
+            <span class="project-tag">React</span>
+            <span class="project-tag">React Router</span>
+            <span class="project-tag">Tailwind CSS</span>
+          </div>
+          <h3>TAP Academy Clone</h3>
+          <p>An educational platform clone mirroring the TAP Academy landing pages, student placement records, enrollment cards, and mock interview scheduling tools.</p>
+        </div>
+      </div>
+
+      <!-- Project 6: College Fest Landing Page -->
+      <div class="project-card spotlight-card tilt-card" data-category="web">
+        <div class="project-img">
+          <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=800&q=80" alt="College Fest Landing Page" />
+          <div class="project-overlay">
+            <a href="https://github.com/KalaiarasanE" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="#" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="project-details">
+          <div class="project-tags">
+            <span class="project-tag">HTML5</span>
+            <span class="project-tag">CSS3</span>
+            <span class="project-tag">JavaScript</span>
+            <span class="project-tag">AOS</span>
+          </div>
+          <h3>College Fest Landing Page</h3>
+          <p>An event management portal designed to coordinate college cultural fests, featuring schedule timelines, speaker/artist grids, and ticket registration forms.</p>
+        </div>
+      </div>
+
+      <!-- Project 7: Instagram Clone -->
+      <div class="project-card spotlight-card tilt-card" data-category="web">
+        <div class="project-img">
+          <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&w=800&q=80" alt="Instagram Clone" />
+          <div class="project-overlay">
+            <a href="https://github.com/KalaiarasanE" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="#" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="project-details">
+          <div class="project-tags">
+            <span class="project-tag">React</span>
+            <span class="project-tag">Tailwind CSS</span>
+            <span class="project-tag">Firebase</span>
+          </div>
+          <h3>Instagram Clone</h3>
+          <p>A social media UI replica incorporating core functionalities like user profiles, media posting, liking, commenting, and real-time feed updates.</p>
+        </div>
+      </div>
+
+      <!-- Project 8: LinkedIn Clone -->
+      <div class="project-card spotlight-card tilt-card" data-category="web">
+        <div class="project-img">
+          <img src="https://images.unsplash.com/photo-1616469829581-73993eb86b02?auto=format&fit=crop&w=800&q=80" alt="LinkedIn Clone" />
+          <div class="project-overlay">
+            <a href="https://github.com/KalaiarasanE" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="#" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="project-details">
+          <div class="project-tags">
+            <span class="project-tag">React</span>
+            <span class="project-tag">Redux</span>
+            <span class="project-tag">Firebase</span>
+            <span class="project-tag">Tailwind</span>
+          </div>
+          <h3>LinkedIn Clone</h3>
+          <p>A professional networking platform clone featuring secure profile creations, text and image post shares, real-time networking connections, and messaging.</p>
+        </div>
+      </div>
+
+      <!-- Project 9: Spotify Clone -->
+      <div class="project-card spotlight-card tilt-card" data-category="web">
+        <div class="project-img">
+          <img src="https://images.unsplash.com/photo-1614680376593-902f74fa0d41?auto=format&fit=crop&w=800&q=80" alt="Spotify Clone" />
+          <div class="project-overlay">
+            <a href="https://github.com/KalaiarasanE" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="#" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="project-details">
+          <div class="project-tags">
+            <span class="project-tag">React</span>
+            <span class="project-tag">Tailwind CSS</span>
+            <span class="project-tag">Spotify API</span>
+          </div>
+          <h3>Spotify Clone</h3>
+          <p>A desktop music player mockup integrating Spotify's web player SDK to allow playlist browsing, song playback, and volume controllers.</p>
+        </div>
+      </div>
+
+      <!-- Project 10: Netflix Clone -->
+      <div class="project-card spotlight-card tilt-card" data-category="web">
+        <div class="project-img">
+          <img src="https://images.unsplash.com/photo-1574375927938-d5a98e8edd85?auto=format&fit=crop&w=800&q=80" alt="Netflix Clone" />
+          <div class="project-overlay">
+            <a href="https://github.com/KalaiarasanE/Neftlix---clone" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://netflix-clone-puce.vercel.app" target="_blank" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="project-details">
+          <div class="project-tags">
+            <span class="project-tag">React</span>
+            <span class="project-tag">Tailwind CSS</span>
+            <span class="project-tag">TanStack Router</span>
+            <span class="project-tag">TMDB API</span>
+          </div>
+          <h3>Netflix Clone</h3>
+          <p>A high-fidelity streaming interface equipped with a billboard hero preview, category carousels, detailed popovers, local bookmarking, and mock media playback.</p>
+        </div>
+      </div>
+
+      <!-- Project 11: Database Application -->
+      <div class="project-card spotlight-card tilt-card" data-category="java">
+        <div class="project-img">
+          <img src="main.jpg" alt="Java Application" />
+          <div class="project-overlay">
+            <a href="https://github.com/KalaiarasanE" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="#" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="project-details">
+          <div class="project-tags">
+            <span class="project-tag">Java</span>
+            <span class="project-tag">JDBC</span>
+            <span class="project-tag">SQL</span>
+          </div>
+          <h3>Database Application</h3>
+          <p>A secure Java console system executing structured database operations via JDBC driver models with transactional optimization.</p>
+        </div>
+      </div>
+
+      <!-- Project 12: Computing Algorithm Suite -->
+      <div class="project-card spotlight-card tilt-card" data-category="python">
+        <div class="project-img">
+          <img src="bck.jpg" alt="Python Scripting" />
+          <div class="project-overlay">
+            <a href="https://github.com/KalaiarasanE" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="#" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="project-details">
+          <div class="project-tags">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">Numpy</span>
+            <span class="project-tag">Pandas</span>
+          </div>
+          <h3>Computing Algorithm Suite</h3>
+          <p>Analytical numerical libraries implementing predictive models and data analytics pipelines compiled for research algorithms.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       10. STATISTICS SECTION
+       ========================================== -->
+  <section class="stats-section" id="stats">
+    <div class="stats-grid reveal reveal-fadein">
+      <div class="stat-item spotlight-card">
+        <i class="fas fa-project-diagram"></i>
+        <div class="counter-number" data-target="15">0</div>
+        <p>Projects Completed</p>
+      </div>
+      <div class="stat-item spotlight-card">
+        <i class="fas fa-medal"></i>
+        <div class="counter-number" data-target="9">0</div>
+        <p>Certificates Earned</p>
+      </div>
+      <div class="stat-item spotlight-card">
+        <i class="fas fa-laptop-code"></i>
+        <div class="counter-number" data-target="250">0</div>
+        <p>LeetCode Problems Solved</p>
+      </div>
+      <div class="stat-item spotlight-card">
+        <i class="fas fa-code-branch"></i>
+        <div class="counter-number" data-target="400">0</div>
+        <p>Contributions on GitHub</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       11. SERVICES SECTION
+       ========================================== -->
+  <section class="services" id="services">
+    <h2 class="heading"><i class="fas fa-concierge-bell"></i> Services <span>I Offer</span></h2>
+    
+    <div class="services-grid reveal reveal-fadein">
+      <div class="service-card spotlight-card">
+        <div class="service-icon-box"><i class="fas fa-laptop-code"></i></div>
+        <h3>Web Development</h3>
+        <p>Creating highly functional, animated responsive websites using standard clean coding principles and optimization practices.</p>
+      </div>
+      <div class="service-card spotlight-card">
+        <div class="service-icon-box"><i class="fas fa-palette"></i></div>
+        <h3>UI/UX Architecture</h3>
+        <p>Structuring interactive prototypes using glassmorphism, dynamic palettes, and elegant animations to guarantee solid engagement.</p>
+      </div>
+      <div class="service-card spotlight-card">
+        <div class="service-icon-box"><i class="fas fa-database"></i></div>
+        <h3>Database Management</h3>
+        <p>Drafting optimized relational entity diagrams, secure transaction queries, and efficient storage mechanisms for microservices.</p>
+      </div>
+    </div>
+
+    <!-- Tech Orbit Animation -->
+    <div class="tech-orbit-container reveal reveal-fadein">
+      <div class="orbit-center">Skills</div>
+      <!-- Inner Orbit Ring -->
+      <div class="orbit-ring orbit-ring-1">
+        <div class="orbit-icon"><i class="fa-brands fa-html5"></i></div>
+        <div class="orbit-icon"><i class="fa-brands fa-css3-alt"></i></div>
+        <div class="orbit-icon"><i class="fa-brands fa-js"></i></div>
+        <div class="orbit-icon"><i class="fa-brands fa-react"></i></div>
+      </div>
+      <!-- Outer Orbit Ring -->
+      <div class="orbit-ring orbit-ring-2">
+        <div class="orbit-icon"><i class="fa-brands fa-python"></i></div>
+        <div class="orbit-icon"><i class="fa-brands fa-java"></i></div>
+        <div class="orbit-icon"><i class="fa-brands fa-node-js"></i></div>
+        <div class="orbit-icon"><i class="fa-solid fa-database"></i></div>
+        <div class="orbit-icon"><i class="fa-brands fa-git-alt"></i></div>
+        <div class="orbit-icon"><i class="fa-brands fa-github"></i></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       12. GITHUB PROFILE DASHBOARD
+       ========================================== -->
+  <section class="github" id="github">
+    <h2 class="heading"><i class="fa-brands fa-github"></i> GitHub <span>Contributions</span></h2>
+    
+    <div class="github-showcase spotlight-card reveal reveal-fadein">
+      <div class="github-header">
+        <div class="github-profile">
+          <img src="main.jpg" alt="Kalaiarasan GitHub Avatar" />
+          <div>
+            <h3>Kalaiarasan E</h3>
+            <p>@KalaiarasanE</p>
+          </div>
+        </div>
+        <a href="https://github.com/KalaiarasanE" target="_blank" class="btn btn-secondary magnetic-btn"><i class="fa-brands fa-github"></i> Visit Profile</a>
+      </div>
+
+      <div class="github-stats-container">
+        <div class="github-stat-card">
+          <i class="fa-solid fa-code-commit"></i>
+          <div>
+            <h4>400+</h4>
+            <p>Commits Last Year</p>
+          </div>
+        </div>
+        
+        <div class="github-stat-card">
+          <i class="fa-solid fa-star"></i>
+          <div>
+            <h4>12</h4>
+            <p>Starred Repos</p>
+          </div>
+        </div>
+
+        <div class="github-graph-card">
+          <h4>Activity Heatmap (Mocked Contribution Grid)</h4>
+          <div class="graph-mock">
+            <!-- Row 1 -->
+            <div class="graph-row">
+              <div class="graph-cell l1"></div><div class="graph-cell"></div><div class="graph-cell l2"></div><div class="graph-cell"></div><div class="graph-cell l3"></div><div class="graph-cell l1"></div><div class="graph-cell"></div><div class="graph-cell l4"></div><div class="graph-cell l2"></div><div class="graph-cell"></div><div class="graph-cell l1"></div><div class="graph-cell"></div>
+            </div>
+            <!-- Row 2 -->
+            <div class="graph-row">
+              <div class="graph-cell"></div><div class="graph-cell l3"></div><div class="graph-cell"></div><div class="graph-cell l1"></div><div class="graph-cell"></div><div class="graph-cell l2"></div><div class="graph-cell l4"></div><div class="graph-cell"></div><div class="graph-cell l3"></div><div class="graph-cell l1"></div><div class="graph-cell"></div><div class="graph-cell l2"></div>
+            </div>
+            <!-- Row 3 -->
+            <div class="graph-row">
+              <div class="graph-cell l2"></div><div class="graph-cell"></div><div class="graph-cell l4"></div><div class="graph-cell l1"></div><div class="graph-cell"></div><div class="graph-cell"></div><div class="graph-cell l1"></div><div class="graph-cell l2"></div><div class="graph-cell"></div><div class="graph-cell l3"></div><div class="graph-cell l1"></div><div class="graph-cell"></div>
+            </div>
+            <!-- Row 4 -->
+            <div class="graph-row">
+              <div class="graph-cell"></div><div class="graph-cell l1"></div><div class="graph-cell"></div><div class="graph-cell l3"></div><div class="graph-cell l4"></div><div class="graph-cell"></div><div class="graph-cell"></div><div class="graph-cell l2"></div><div class="graph-cell l1"></div><div class="graph-cell"></div><div class="graph-cell l3"></div><div class="graph-cell"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials section removed -->
+
+  <!-- ==========================================
+       14. CERTIFICATES GALLERY
+       ========================================== -->
+  <section class="certificates" id="certificates">
+    <h2 class="heading"><i class="fas fa-solid fa-book"></i> Certificates <span>Achieved</span></h2>
+    
+    <div class="certificates-grid reveal reveal-fadein">
+      <!-- Certificate 1 -->
+      <div class="certificate-container spotlight-card" onclick="openModal('The Joy of Computing using Python_page-0001.jpg')">
+        <div class="certificate-image">
+          <img src="The Joy of Computing using Python_page-0001.jpg" alt="Python computing certificate" />
+        </div>
+      </div>
+
+      <!-- Certificate 2 -->
+      <div class="certificate-container spotlight-card" onclick="openModal('Kalaiarasan E(101)_page-0001 (1).jpg')">
+        <div class="certificate-image">
+          <img src="Kalaiarasan E(101)_page-0001 (1).jpg" alt="HackerRank certificate" />
+        </div>
+      </div>
+
+      <!-- Certificate 3 -->
+      <div class="certificate-container spotlight-card" onclick="openModal('Coursera MLDW5AKVAW6E (1)_page-0001.jpg')">
+        <div class="certificate-image">
+          <img src="Coursera MLDW5AKVAW6E (1)_page-0001.jpg" alt="Coursera learning certificate" />
+        </div>
+      </div>
+
+      <!-- Certificate 4 -->
+      <div class="certificate-container spotlight-card" onclick="openModal('WhatsApp Image 2025-09-11 at 1.58.18 AM.jpeg')">
+        <div class="certificate-image">
+          <img src="WhatsApp Image 2025-09-11 at 1.58.18 AM.jpeg" alt="Technical competition certificate" />
+        </div>
+      </div>
+
+      <!-- Certificate 5 -->
+      <div class="certificate-container spotlight-card" onclick="openModal('KALAIARASAN_page-0001.jpg')">
+        <div class="certificate-image">
+          <img src="KALAIARASAN_page-0001.jpg" alt="Academic recognition" />
+        </div>
+      </div>
+
+      <!-- Certificate 6 -->
+      <div class="certificate-container spotlight-card" onclick="openModal('Kalaiarasan E-ELT (1)_page-0001 (1).jpg')">
+        <div class="certificate-image">
+          <img src="Kalaiarasan E-ELT (1)_page-0001 (1).jpg" alt="English Language Assessment" />
+        </div>
+      </div>
+
+      <!-- Certificate 7 -->
+      <div class="certificate-container spotlight-card" onclick="openModal('java_basic certificate (2)_page-0001.jpg')">
+        <div class="certificate-image">
+          <img src="java_basic certificate (2)_page-0001.jpg" alt="Java basic assessment" />
+        </div>
+      </div>
+
+      <!-- Certificate 8 -->
+      <div class="certificate-container spotlight-card" onclick="openModal('WhatsApp Image 2025-09-11 at 1.58.18 AM (1).jpeg')">
+        <div class="certificate-image">
+          <img src="WhatsApp Image 2025-09-11 at 1.58.18 AM (1).jpeg" alt="Milestone achievement" />
+        </div>
+      </div>
+
+      <!-- Certificate 9 -->
+      <div class="certificate-container spotlight-card" onclick="openModal('WhatsApp Image 2025-09-11 at 2.29.04 AM.jpeg')">
+        <div class="certificate-image">
+          <img src="WhatsApp Image 2025-09-11 at 2.29.04 AM.jpeg" alt="Workshop verification" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Interactive Zoom Modal -->
+    <div id="certificateModal" class="modal">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <img class="modal-content" id="modalImage" alt="Certificate Full View" />
+    </div>
+  </section>
+
+  <!-- ==========================================
+       15. CONTACT SECTION
+       ========================================== -->
+  <section class="contact" id="contact">
+    <h2 class="heading"><i class="fas fa-envelope-open-text"></i> Contact <span>Me</span></h2>
+    
+    <div class="contact-container">
+      <div class="contact-left reveal reveal-left">
+        <div class="contact-info-card spotlight-card">
+          <h3>Get In Touch</h3>
+          <div class="contact-detail-list">
+            <div class="contact-detail-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <p>Email Address</p>
+                <h4>kalaiarasane08@gmail.com</h4>
+              </div>
+            </div>
+            <div class="contact-detail-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <p>Location</p>
+                <h4>Coimbatore, India</h4>
+              </div>
+            </div>
+          </div>
+          <button class="btn btn-secondary email-copy-btn magnetic-btn" data-email="kalaiarasane08@gmail.com">
+            <i class="fas fa-copy"></i> Copy Email Address
+          </button>
+        </div>
+      </div>
+
+      <div class="contact-right reveal reveal-right">
+        <form id="contactForm" novalidate>
+          <div class="form-group">
+            <input type="text" id="name" required />
+            <label for="name">Your Name</label>
+          </div>
+          
+          <div class="form-group">
+            <input type="email" id="email" required />
+            <label for="email">Your Email</label>
+          </div>
+
+          <div class="form-group">
+            <input type="text" id="subject" required />
+            <label for="subject">Subject</label>
+          </div>
+
+          <div class="form-group">
+            <textarea id="message" required></textarea>
+            <label for="message">Message Details</label>
+          </div>
+
+          <button type="submit" class="btn btn-primary submit-btn magnetic-btn">
+            Send Message <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       16. FOOTER & ANIMATED WAVE
+       ========================================== -->
+  <footer>
+    <div class="wave-divider">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1130.5,120.9,1057.57,112,985.66,92.83Z" class="shape-fill"></path>
+      </svg>
+    </div>
+
+    <div class="footer-content">
+      <div class="logo">Kalaiarasan E</div>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Timeline</a>
+        <a href="#projects">Projects</a>
+      </div>
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/in/kalaiarasan-e-7b7044258/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/KalaiarasanE" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://leetcode.com/u/KalaiarasanE/" target="_blank" aria-label="LeetCode"><i class="fa-solid fa-code"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Kalaiarasan E. Built with Premium UI/UX Standards.</p>
+      <p>All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scroll-to-Top FAB Button -->
+  <button class="back-to-top" aria-label="Scroll to Top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- Core JavaScript Logic -->
+  <script src="script.js"></script>
+
+</body>
+</html>
